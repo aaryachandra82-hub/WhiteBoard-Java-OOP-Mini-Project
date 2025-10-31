@@ -27,7 +27,7 @@ public class DigitalWhiteboardPro extends JFrame {
     private boolean eraserMode = false;
     private int mouseX = -1, mouseY = -1;
 
-    private Image backgroundImage = null; // ✅ New: store loaded image
+    private Image backgroundImage = null; 
     private JPanel drawPanel;
     private JLabel sizeLabel;
     private JSlider sizeSlider;
